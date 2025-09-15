@@ -5,7 +5,7 @@ A quick reference guide for HTML basics 🚀
 
 ---
 
-## 📌 Basic HTML Structure
+📌 Basic HTML Structure
 ```html
 <!DOCTYPE html>
 <html lang="en">
