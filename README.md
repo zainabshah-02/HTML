@@ -18,7 +18,7 @@ A quick reference guide for HTML basics 🚀
   <h1>Hello, World!</h1>
 </body>
 </html>
-📌 Headings
+#📌 Headings
 html
 Copy code
 <h1>Main Heading</h1>
