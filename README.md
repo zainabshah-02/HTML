@@ -3,125 +3,110 @@
 
 A quick reference guide for HTML basics 🚀
 
----
+📌 Basic Structure
 
-📌 Basic HTML Structure
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page Title</title>
-</head>
-<body>
-  <h1>Hello, World!</h1>
-</body>
-</html>
-#📌 Headings
-html
-Copy code
-<h1>Main Heading</h1>
-<h2>Sub Heading</h2>
-<h3>Smaller Heading</h3>
-<h4>Even Smaller</h4>
-<h5>Tiny</h5>
-<h6>Smallest</h6>
+Every HTML document starts with a declaration and contains two main parts:
+
+Head → Metadata, title, links to CSS/JS.
+
+Body → Visible content (text, images, links, etc.).
+
+📌 Headings
+
+HTML provides six levels of headings:
+
+<h1> → Main title (largest).
+
+<h2> → Sub-title.
+
+<h3> → Section title.
+
+<h4> <h5> <h6> → Smaller headings.
+
 📌 Text Formatting
-html
-Copy code
-<p>This is a paragraph.</p>
-<strong>Bold text</strong>
-<em>Italic text</em>
-<u>Underline</u>
-<mark>Highlighted</mark>
-<del>Deleted</del>
-<ins>Inserted</ins>
-<small>Small text</small>
+
+Paragraphs are written with <p>.
+
+Bold text uses <strong>.
+
+Italic text uses <em>.
+
+Underline, highlight, deleted, and inserted text have their own tags.
+
 📌 Links & Images
-html
-Copy code
-<a href="https://example.com" target="_blank">Visit Example</a>
-<img src="image.jpg" alt="Description" width="200" height="150">
+
+Links connect pages using <a>.
+
+Images are added with <img> along with attributes like src (source) and alt (description).
+
 📌 Lists
-html
-Copy code
-<!-- Unordered List -->
-<ul>
-  <li>Item One</li>
-  <li>Item Two</li>
-</ul>
 
-<!-- Ordered List -->
-<ol>
-  <li>First</li>
-  <li>Second</li>
-</ol>
+Unordered lists (<ul>) → Display items with bullet points.
 
-<!-- Definition List -->
-<dl>
-  <dt>HTML</dt>
-  <dd>HyperText Markup Language</dd>
-</dl>
+Ordered lists (<ol>) → Display items with numbers.
+
+Definition lists (<dl>) → Provide terms and descriptions.
+
 📌 Tables
-html
-Copy code
-<table border="1">
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Zainab</td>
-    <td>22</td>
-  </tr>
-</table>
+
+Tables organize data into rows and columns using:
+
+<table> for the table.
+
+<tr> for rows.
+
+<th> for headers.
+
+<td> for data cells.
+
 📌 Forms
-html
-Copy code
-<form action="/submit" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="username"><br><br>
 
-  <input type="email" placeholder="Email"><br>
-  <input type="password" placeholder="Password"><br>
-  <input type="checkbox"> Accept Terms<br>
-  <input type="radio" name="gender"> Male
-  <input type="radio" name="gender"> Female<br>
+Forms collect user input with different elements:
 
-  <select>
-    <option>Option 1</option>
-    <option>Option 2</option>
-  </select><br><br>
+Text fields for input.
 
-  <textarea rows="3" cols="20">Type here...</textarea><br>
-  <button type="submit">Submit</button>
-</form>
+Email and password fields for specific data types.
+
+Checkboxes and radio buttons for choices.
+
+Select dropdowns and textareas for multiple options or long input.
+
+Buttons to submit or reset the form.
+
 📌 Multimedia
-html
-Copy code
-<audio controls>
-  <source src="song.mp3" type="audio/mpeg">
-</audio>
 
-<video controls width="320">
-  <source src="video.mp4" type="video/mp4">
-</video>
+Audio can be embedded with <audio>.
 
-<iframe src="https://example.com" width="400" height="300"></iframe>
+Video can be embedded with <video>.
+
+Iframes allow embedding external pages or content.
+
 📌 Semantic HTML
-html
-Copy code
-<header>Header Content</header>
-<nav>Navigation Links</nav>
-<main>Main Content</main>
-<section>Section Content</section>
-<article>Article Content</article>
-<aside>Sidebar</aside>
-<footer>Footer Info</footer>
+
+Semantic tags make structure meaningful:
+
+<header> → Page or section header.
+
+<nav> → Navigation links.
+
+<main> → Main content area.
+
+<section> → Groups related content.
+
+<article> → Self-contained content.
+
+<aside> → Sidebar or related info.
+
+<footer> → Footer information.
+
 📌 Meta & SEO
-html
-Copy code
-<meta name="description" content="Your website description">
-<meta name="keywords" content="HTML, CSS, JavaScript">
-<meta name="author" content="Your Name">
+
+Meta tags provide information to browsers and search engines:
+
+Description → Summary of the page.
+
+Keywords → Relevant terms.
+
+Author → Name of content creator.
+
+Small text can be displayed with <small>.
